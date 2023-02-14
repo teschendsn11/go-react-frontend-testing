@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist/",
+      "noImplicitAny": true,
+      "module": "es6",
+      "target": "es6",
+      "jsx": "react-jsx",
+      "jsxImportSource": "@emotion/react",
+      "allowJs": true,
+      "moduleResolution": "node",
+      "types": ["react/next", "react-dom/next"],
+      "paths": {
+        "emotion": ["./src/types/emotion.d.ts"]
+      }
+    }
+}
